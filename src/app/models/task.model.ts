@@ -1,0 +1,12 @@
+export type Tasktatus = 'pendiente' | 'en progreso'| 'listo';
+export type TaskPriority = 'baja'| 'media'| 'alta' | 'urgente';
+export interface Task {
+    id: string;
+    titulo: string;
+    descripcion: string;
+    fechaCreacion: string;
+    fechaLimite: string,
+    estado: string;
+    prioridad: string;
+    categoria: string;
+}
